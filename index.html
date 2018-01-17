@@ -42,9 +42,11 @@
       </div>
     </header>
     <main>
-      <div id="home" data-relative-input="true" class="home">
-        <div data-depth="0.2" class="container">
-          <h1 class="home__text">Results of the first ever water quality and pollution recording of Hong Kong Islands 80 kilometer coastline. The data was recorded during the 2017 Round the Island Expedition.</h1>
+      <div id="home">
+        <div data-parallax="scroll" data-image-src="img/Parallax.jpg" class="home parallax-window">
+          <div class="container">
+            <h1 class="home__text">Results of the first ever water quality and pollution recording of Hong Kong Islands 80 kilometer coastline. The data was recorded during the 2017 Round the Island Expedition.</h1>
+          </div>
         </div>
       </div>
       <div id="map"></div>
@@ -65,7 +67,71 @@
           </ul>
         </div>
       </div>
+      <div class="expedition">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="expedition__heading">The Expedition</h2>
+              <p class="expedition__subinfo">In May 2017 Esther Roeling and Paul Niel completed the first succesful coasteering expedition of Hong Kong Island. In 6 days they climbed, swam, scrambled and hiked the entire coastline, took 51 water samples and mapped 163 trash pollution spots</p><a class="expedition__btn">Read More »</a>
+              <div class="expedition__video">
+                <div id="playerVideo"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="partners">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="partners__heading">Partners</h2>
+            </div>
+            <div class="col-xs-12">
+              <ul class="partners-list">
+                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="../img/partners1.png" alt="explorers" class="partners-list__img"></a></li>
+                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="../img/partners2.png" alt="bremont" class="partners-list__img"></a></li>
+                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="../img/partners3.png" alt="ocean-recovery" class="partners-list__img"></a></li>
+                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="../img/partners4.png" alt="open-hongkong" class="partners-list__img"></a></li>
+                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="../img/partners5.png" alt="patogonia" class="partners-list__img"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-us">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="contact-us__heading">Contact Us</h2>
+              <div class="contact-us__form-env">
+                <form action="#" method="post">
+                  <div class="form-env">
+                    <label class="form-env__label">
+                      <input type="text" name="name" placeholder="Name" required class="form-env__input">
+                      <input type="tel" name="phone" placeholder="Phone number" required class="form-env__input phone-mask">
+                      <input type="email" name="email" placeholder="Email address" required class="form-env__input">
+                    </label>
+                    <label class="form-env__label">
+                      <textarea name="message" placeholder="Message" class="form-env__textarea"></textarea>
+                    </label>
+                  </div>
+                  <input type="submit" value="Send" class="contact-us__btn-send">
+                </form>
+              </div>
+              <div class="contact-us__social">
+                <ul class="social">
+                  <li class="social__item"><a href="https://www.facebook.com" class="social__link"><i class="fa fa-facebook"></i></a></li>
+                  <li class="social__item"><a href="https://www.instagram.com" class="social__link"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <footer class="footer">
+      <p class="copyright">Copyright © 2017. All Rights Reserved.</p>
+    </footer>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAShGoCUNqjtljY3Q2oGN9ZTmTxQbETDJs&amp;callback=initMap"></script>
     <script src="js/common.min.js"></script>
   </body>
