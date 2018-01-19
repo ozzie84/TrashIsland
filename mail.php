@@ -1,7 +1,7 @@
 <?php
 
-  $recepient = "roundtheisland852@gmail.com";
-  $sitename = "sitename";
+  $recepient = "terehov84@gmail.com";
+  $sitename = "https://ozzie84.github.io/TrashIsland/index.html";
 
   $headers = 'MIME-Version: 1.0' . "\r\n";
   $headers = 'Content-type: text/html; charset=iso-8859-1' . "\r\n"
