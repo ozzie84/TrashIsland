@@ -31,7 +31,7 @@ $email = clean($email);
 $phone = clean($phone);
 $textarea = clean($message);
 
-if($name && $phone && $email && $date) {
+if($name && $phone && $email && $textarea) {
   $email_validate = filter_var($email, FILTER_VALIDATE_EMAIL);
   if(check_length($car_name, 2, 60) && check_length($name, 2, 40) && check_length($phone, 2, 50) && check_length($date, 2, 1000) && $email_validate) {
     $mail = "terehov84@gmail.com";
