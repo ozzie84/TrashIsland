@@ -32,7 +32,7 @@
           <div class="header__logo"><a href="#"><img src="img/logotype.png" alt="logotype"></a></div>
           <ul id="menu" class="header__menu">
             <li class="header__menu__items logo-menu"><a href="#home"><img src="img/logotype.png" alt="logotype"></a></li>
-            <li class="header__menu__items active"><a href="#map">Trash Sites</a></li>
+            <li class="header__menu__items active"><a href="#map">Pollution Map</a></li>
             <li class="header__menu__items"><a href="#rawData">Raw Data</a></li>
             <li class="header__menu__items"><a href="#expedition">Expedition</a></li>
             <li class="header__menu__items"><a href="#supporters">Supporters</a></li>
@@ -57,7 +57,7 @@
             <h2 class="data-heading">DATA & RESEARCH</h2>
             <ul class="data-main">
               <li class="data-main__items"><span class="data-main__icon"><img src="img/icon1.png" alt="icon1"></span>
-                <h4 class="data-main__heading">Water Pollution</h4><a href="https://www.dropbox.com/s/y0abp9ggzvf7jxa/RTI%20Coastal%20Data.xls?dl=0" class="data-main__link">Download<img src="img/downloads.png" alt="downloads_icon"></a><i class="data-main__demo">(Coming soon)</i>
+                <h4 class="data-main__heading">Water Pollution</h4><a href="https://www.dropbox.com/s/y0abp9ggzvf7jxa/RTI%20Coastal%20Data.xls?dl=0" target="_blank" class="data-main__link">Download<img src="img/downloads.png" alt="downloads_icon"></a><i class="data-main__demo">(Coming soon)</i>
               </li>
               <li class="data-main__items"><span class="data-main__icon"><img src="img/icon2.png" alt="icon2"></span>
                 <h4 class="data-main__heading">BioChemistry Data</h4><a href="#" class="data-main__link">Download<img src="img/downloads.png" alt="downloads_icon"></a><i class="data-main__demo">(Coming soon)</i>
@@ -75,7 +75,7 @@
             <div class="row">
               <div class="col-xs-12">
                 <h2 class="expedition__heading">The Expedition</h2>
-                <p class="expedition__subinfo">In May 2017 Esther Roeling and Paul Niel completed the first succesful coasteering expedition of Hong Kong Island. In 6 days they climbed, swam, scrambled and hiked the entire coastline, took 51 water samples and mapped 163 trash pollution spots</p><a class="expedition__btn">Read More »</a>
+                <p class="expedition__subinfo">In May 2017 Esther Roeling and Paul Niel completed the first succesful coasteering expedition of Hong Kong Island. In 6 days they climbed, swam, scrambled and hiked the entire coastline, took 51 water samples and mapped 163 trash pollution spots</p><a href="http://www.scmp.com/news/hong-kong/education-community/article/2096011/couple-successfully-circle-hong-kong-island" target="_blank" class="expedition__btn">Read More »</a>
                 <div class="expedition__video">
                   <div id="playerVideo"></div>
                 </div>
@@ -110,7 +110,7 @@
             <div class="col-xs-12">
               <h2 class="contact-us__heading">Contact Us</h2>
               <div class="contact-us__form-env">
-                <form action="#" method="post">
+                <form id="form" action="mail.php" method="post">
                   <div class="form-env">
                     <div class="form-env__label">
                       <label>
@@ -120,7 +120,7 @@
                         <input type="tel" name="phone" placeholder="Phone number" required class="form-env__input phone_mask">
                       </label>
                       <label>
-                        <input type="email" name="email" placeholder="Email address" class="form-env__input">
+                        <input type="email" name="email" placeholder="Email address" required class="form-env__input">
                       </label>
                     </div>
                     <div class="form-env__label">
