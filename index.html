@@ -27,12 +27,13 @@
       <div class="container">
         <div class="header">
           <div class="header__burger">
+            <div class="burger_wrap"></div>
             <div class="hamburger"><span></span><span></span><span></span><span></span><span></span><span></span></div>
           </div>
-          <div class="header__logo"><a href="#"><img src="img/logotype.png" alt="logotype"></a></div>
+          <div class="header__logo"><a href="#home"><img src="img/logotype.png" alt="logotype"></a></div>
           <ul id="menu" class="header__menu">
             <li class="header__menu__items logo-menu"><a href="#home"><img src="img/logotype.png" alt="logotype"></a></li>
-            <li class="header__menu__items active"><a href="#map">Pollution Map</a></li>
+            <li class="header__menu__items"><a href="#map">Pollution Map</a></li>
             <li class="header__menu__items"><a href="#rawData">Raw Data</a></li>
             <li class="header__menu__items"><a href="#expedition">Expedition</a></li>
             <li class="header__menu__items"><a href="#supporters">Supporters</a></li>
@@ -50,7 +51,6 @@
         </div>
       </div>
       <div id="map"></div>
-      <!--include ../layout/_island-->
       <div id="rawData">
         <div class="data-wrapper">
           <div class="container">
@@ -84,59 +84,61 @@
           </div>
         </div>
       </div>
-      <div id="supporters"></div>
-      <div class="partners">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2 class="partners__heading">Partners</h2>
-            </div>
-            <div class="col-xs-12">
-              <ul class="partners-list">
-                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners1.png" alt="explorers" class="partners-list__img"></a></li>
-                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners2.png" alt="bremont" class="partners-list__img"></a></li>
-                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners3.png" alt="ocean-recovery" class="partners-list__img"></a></li>
-                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners4.png" alt="open-hongkong" class="partners-list__img"></a></li>
-                <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners5.png" alt="patogonia" class="partners-list__img"></a></li>
-              </ul>
+      <div id="supporters">
+        <div class="partners">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="partners__heading">Partners</h2>
+              </div>
+              <div class="col-xs-12">
+                <ul class="partners-list">
+                  <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners1.png" alt="explorers" class="partners-list__img"></a></li>
+                  <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners2.png" alt="bremont" class="partners-list__img"></a></li>
+                  <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners3.png" alt="ocean-recovery" class="partners-list__img"></a></li>
+                  <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners4.png" alt="open-hongkong" class="partners-list__img"></a></li>
+                  <li class="partners-list__item"><a href="#" class="partners-list__link"><img src="img/partners5.png" alt="patogonia" class="partners-list__img"></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div id="contacts"></div>
-      <div class="contact-us">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
-              <h2 class="contact-us__heading">Contact Us</h2>
-              <div class="contact-us__form-env">
-                <form id="form" action="mail.php" method="post">
-                  <div class="form-env">
-                    <div class="form-env__label">
-                      <label>
-                        <input type="text" name="name" placeholder="Name" required class="form-env__input">
-                      </label>
-                      <label>
-                        <input type="tel" name="phone" placeholder="Phone number" required class="form-env__input phone_mask">
-                      </label>
-                      <label>
-                        <input type="email" name="email" placeholder="Email address" required class="form-env__input">
-                      </label>
+      <div id="contacts">
+        <div class="contact-us">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12">
+                <h2 class="contact-us__heading">Contact Us</h2>
+                <div class="contact-us__form-env">
+                  <form id="form" action="mail.php" method="post">
+                    <div class="form-env">
+                      <div class="form-env__label">
+                        <label>
+                          <input type="text" name="name" placeholder="Name" required class="form-env__input">
+                        </label>
+                        <label>
+                          <input type="tel" name="phone" placeholder="Phone number" required class="form-env__input phone_mask">
+                        </label>
+                        <label>
+                          <input type="email" name="email" placeholder="Email address" required class="form-env__input">
+                        </label>
+                      </div>
+                      <div class="form-env__label">
+                        <label>
+                          <textarea name="message" placeholder="Message" class="form-env__textarea"></textarea>
+                        </label>
+                      </div>
                     </div>
-                    <div class="form-env__label">
-                      <label>
-                        <textarea name="message" placeholder="Message" class="form-env__textarea"></textarea>
-                      </label>
-                    </div>
-                  </div>
-                  <input type="submit" value="Send" class="contact-us__btn-send">
-                </form>
-              </div>
-              <div class="contact-us__social">
-                <ul class="social">
-                  <li class="social__item"><a href="https://www.facebook.com/RoundtheIslandHK/" target="_blank" class="social__link"><i class="fa fa-facebook"></i></a></li>
-                  <li class="social__item"><a href="https://www.instagram.com/coasteeringHK/" target="_blank" class="social__link"><i class="fa fa-instagram"></i></a></li>
-                </ul>
+                    <input type="submit" value="Send" class="contact-us__btn-send">
+                  </form>
+                </div>
+                <div class="contact-us__social">
+                  <ul class="social">
+                    <li class="social__item"><a href="https://www.facebook.com/RoundtheIslandHK/" target="_blank" class="social__link"><i class="fa fa-facebook"></i></a></li>
+                    <li class="social__item"><a href="https://www.instagram.com/coasteeringHK/" target="_blank" class="social__link"><i class="fa fa-instagram"></i></a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
